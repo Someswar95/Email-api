@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form th:action="@{/sendMail}" method="post">
+	<label>Recipient</label>
+	<input type="text">
+	<br>
+	<label>Body</label>
+	<input type="text">
+	<br>
+	<label>Subject</label>
+	<textarea rows="10" cols="100"></textarea>
+	<br>
+	<input type="submit">
+</form>
+</body>
+</html>
