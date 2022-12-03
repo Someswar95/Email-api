@@ -20,10 +20,10 @@ public class EmailController {
 		return status;
 	}
 	
-//	@PostMapping("/sendMailAttachment")
-//	public String sendEmailAttachment(@RequestBody EmailDetails emailDetails) {
-//		String status = this.emailService.sendEmailAttachment(emailDetails);
-//		return status;
-//	}
+	@PostMapping("/sendMailAttachment")
+	public String sendEmailAttachment(@RequestBody EmailDetails emailDetails) {
+		String status = this.emailService.sendEmailAttachment(emailDetails);
+		return status;
+	}
 	
 }

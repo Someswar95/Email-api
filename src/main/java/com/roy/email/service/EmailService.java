@@ -6,6 +6,6 @@ public interface EmailService {
 
 	String sendEmail(EmailDetails emailDetails);
 	
-//	String sendEmailAttachment(EmailDetails emailDetails);
+	String sendEmailAttachment(EmailDetails emailDetails);
 	
 }
